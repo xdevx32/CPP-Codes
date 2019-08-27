@@ -17,4 +17,14 @@ int main()
     cin.get(str1, 10, '.').get(str2, 10, '.');
 
     cout << "str1:" << str1 << "\nstr2:" << str2 << "\n";
+
+    cout << "Gcount result: " << cin.gcount() << endl;
+
+    /*
+     * Input: foooooooobarrrrrrrr.cantcme
+     * Output:
+        str1:foooooooo
+        str2:barrrrrrr
+        Gcount result: 9
+     */
 }
