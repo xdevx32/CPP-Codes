@@ -2,5 +2,4 @@
 CMakeLists.txt
 cmake-build-debug/
 input.txt
-main.cpp
 persons.dat
