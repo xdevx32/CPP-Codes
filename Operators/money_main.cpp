@@ -9,8 +9,10 @@ using namespace std;
 int main()
 {
 
-    Money m = Money(20, 42);
-    m.setLevove(16);
-    cout << m.getLevove() << endl;
+    Money m = Money(3, 20);
+    Money n = Money(4, 30);
+    Money z = m - n;
+
+    cout << z.getLevove() << "," << z.getStotinki() << endl;
     return 0;
 }
